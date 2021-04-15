@@ -1,0 +1,12 @@
+#!/bin/sh
+#这个文件最后一行必须留空
+
+# 包含了软件在进行正常目录文件拷贝到系统后，所需要执行的配置工作。
+
+# 签名
+echo "[postinst] codesign lsof"
+ldid -S/tmp/lsof_ent.plist /usr/bin/lsof
+rm -rf /tmp/lsof_ent.plist
+
+
+

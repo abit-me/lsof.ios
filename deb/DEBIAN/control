@@ -1,0 +1,10 @@
+Package: lsof
+Name: lsof
+Depends: 
+Version: 4.94.0
+Architecture: iphoneos-arm
+Description: lsof for iOS >= 10
+Maintainer: A
+Author: A
+Section: System
+Tag: role::hacker
